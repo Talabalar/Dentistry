@@ -1,403 +1,85 @@
-*{box-sizing: border-box}
-#ota{
-    display: flex;
-    justify-content: space-around;
-    margin-bottom: 40px;
-    margin-top: 40px;
-    font-family: Bahnschrift;
-}
-.ota1{
-    margin-top: 30px;
-}
-#bola1{
-    display: inline-block;
-    color: aqua;
-    margin: 0 0;
-    font-size: 20px;
-}
-#bola2{ display: inline-block;
-    font-size: 20px;
-    margin: 0 0;
-}
-#bola3{
-    margin: 0 0;
-    font-size: 10px;
-}
-#bola4{
-    text-align: center;
-    margin: 0 0;
-    font-size: 45px;
-}
-#bola5{
-    margin: 0 0;
-}
-#bola6 {
-    font-size: 20px;
-    margin: 0 0;
-}
-#bola7{
-    display: inline-block;
-    margin: 0 0;
-    font-size: 15px;
-}
-#bola8 {
-    display: inline-block;
-    color: aqua;
-    margin: 0 0;
-    font-size: 15px;
-}
-#bola9{
-    display: inline-block;
-    margin: 0 0;
-    font-size: 15px;
-}
-ul{
-    display: flex;
-    justify-content: space-around;
-    font-size: 0;
-    text-align: center;
-    margin-top: 20px;
-    margin-bottom: 0;
-    font-family: Bahnschrift;
-}
-a{
-    color: gray;
-    font-size: 20px;
-    text-decoration: none;
-}
-a:hover{
-    color: aqua;
-}
-#ota3{
-    height: 100vh;
+#soya{
     background-image: url("../images/bg_2.jpg");
     background-size: cover;
     background-attachment: fixed;
-}
-#bola10{
-    font-family: Bahnschrift;
-    text-align: right;
-}
-#bola11{
-    font-size: 45px;
-    margin-bottom: 0;
-    padding-top: 220px;
-    padding-right: 30px;
-}
-#bola12{
-    padding-right: 70px;
-    font-size: 20px;
-}
-#bola13{
-    margin-right: 420px;
-    font-size: 25px;
-    border: 1px solid inherit;
-    border-radius: 30px;
-    background-color: #1fb157;
-    color: white;
-    padding: 25px 60px;
-}
-#bola13:hover{
-    background-color: green;
-    color: gray;
-}
-
-
-.px{
-    width: 1000px;
-    margin: 0 auto;
-
+    width: 100%;
+    height: 100vh;
 
 }
-.bir{
-    width: 400px;
-    overflow: hidden;
-    display: inline-block;
-    margin: 0px;
-    margin-top: 0px;
+#ota{
+    background-color: rgba(0,0,0,0.5) ;
+    height: 150px ;
+}
+a:hover{
+    text-decoration: none;
+   color: blue !important;
+    font-size: 22px;
+}
+#bola{
+    margin-top: 200px;
+    color: #000;
 
 }
-.bit{
-    width: 400px;
-    height: 670px;
-    display: block;
-    object-fit: cover;
+#bola2{
+    margin-right: 75px !important;
 }
-.ikki{
-    margin-left: 50px;
-
-    width: 500px;
-    display: inline-block;
-
+#button{
+    border-radius: 50px;
+    margin-right: 290px;
 }
-.uchta{
-    font-size: 30px;
-    color: black;
-    margin-left: 50px;
+#fon{
+    background-color: white;
+    width: 100%;
+    height: 100vh;
 }
-
-.uchinchi{
-    margin-left: 50px;
-    color: grey;
+#bola3{
+    margin-top: 100px;
 }
-.rasm{
-    width: 80px;
-    border-radius: 50%;
-    display: inline-block;
-
+#bola4{
+    color: #c6c8ca;
 
 }
-.uch{
+#rasm1{
+    border-radius: 60px;
 }
-.matn{
-    height: 490px;
-
-
+#bola5{
+    margin-top: 50px;
+    margin-right: 60px;
 }
-.yon{
-    display: inline-block;
-    margin-bottom: -10px;
-    margin-left: 10px;
-
-}
-.boshrasm{
-    display: inline-block;
-}
-.yonma{
-    display: inline-block;
-    text-align: left;
-    /*margin-bottom: 10px;*/
-    padding: 0px;
+.btn{
+    margin-bottom:-40px !important;
+    border-radius: 50px !important;
+    padding: 12px !important;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
 
 }
-.ora{
-    margin-top: 10px;
-    color: grey;
-    margin-left: 10px;
+sub{
+    color: #ccc;
+    font-size: 15px !important;
+}
+#bola6{
+    margin-top: 60px;
+}
+button:hover{
+    background-color: black !important;
+}
+.text-white{
+    list-style-type: none !important;
+}
+#bola6{
+    /*background-color: #cccccc;*/
+
+    width: 100% !important;
+    height: 100vh !important;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.ota4{
-    font-family: Bahnschrift;
-    text-align: center;
-    margin-top: 140px;
-}
-.ota5{
-    margin-bottom: 80px;
-}
-.bola14{
-    font-size: 30px;
-    margin-bottom: 0;
-}
-.bola15{
-    font-size: 55px;
-    margin-top: 0;
-    margin-bottom: 0;
-}
-#rasmlarga{
-    display: flex;
-    justify-content: space-around;
+.fon{
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
 }
 img{
-    width: 100%;
-    border-radius: 700px;
-}
-.bola16{
-    width: 30%;
-    height: 20%;
-}
-.bola1{
-    display: flex;
-    justify-content: space-around;
-}
-.bola17{
-    color: gray;
-    font-size: 15px;
-}
-.bola18{
-    color: black;
-    font-size: 20px;
-}
-.bola19{
-    font-size: 15px;
+    width:100%;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-#bola14{
-    text-align: center;
-    color: gray;
-    font-size: 15px;
-}
-.oxirgip{
-    display: flex;
-    justify-content: space-around;
-}
-.oxirgi{
-    border: 2px solid aqua;
-    width: auto;
-    padding: 0 20px;
-}
-.oxirgi3{
-    font-size: 25px;
-}
-.oxirgi5{
-    font-size: 20px;
-}
-.oxirgi6{
-    display: flex;
-    justify-content: space-around;
-}
-.oxirgi2{
-    color: aqua;
-    font-size: 25px;
-    padding-right: 0;
-}
-.oxirgim{
-    background-color: lightgray;
-    font-size: 15px;
-    padding: 10px 0;
-}
-.oxirgin{
-    font-size: 15px;
-    padding: 10px 0;
-
-}
-.blog{
-    text-align: center;
-    margin-bottom: 0;
-    color: grey;
-}
-.recent{
-    text-align: center;
-    margin-top: 0;
-
-}
-.ikkinchi{
-    margin: 0 auto;
-    width: 700px;
-}
-.ipsum{
-    text-align: center;
-    color: grey;
-}
-.eng{
-    margin: 0 auto;
-    width: 1000px;
-    margin-bottom: 50px;
-}
-.rasim{
-    background-image: url("../images/image_1.jpg");
-    background-size: cover;
-    width: 300px;
-    height: 35vh ;
-    overflow: hidden;
-
-
-
-
-}
-.september{
-    font-size: 15px;
-
-}
-.scan{
-    font-size: 20px;
-    width: 240px;
-    margin: 10px 20px;
-    text-align: left;
-
-
-
-}
-.css{
-    width: 30%;
-    text-align: right;
-    display: inline-block;
-    margin: 0 10px;
-
-}
-.september{
-    width: 250px;
-
-
-}
-.pusk{
-    width: 240px;
-    margin: 10px 20px;
-    text-align: left;
-    color: grey;
-}
-.sana{
-    text-align: center;
-    width: 30%;
-    display: inline-block;
-    margin-top: 144px;
-    background-color: #546dff;
-    color: white;
-    line-height: 0px;
-}
-.sana1{
-    margin: 0px;
-    padding: 0px;
-}
-.but{
-    text-align: left;
-    border-radius: 20px;
-    display: inline-block;
-}
-button{
-    border-radius: 30px;
-    background-color: #546DFF;
-    padding: 10px;
-    color: white;
-    box-shadow: 7px 7px 10px 0px rgba(0,0,0,0.75);
-
-}
-.admin{
-    text-align: right;
-    display: inline-block;
-    color: #546dff;
-    margin-left: 50px;
-    margin-right: 25px;
-
-}
-.image{
-    background-image: url("../images/image_2.jpg");
-    background-size: cover;
-    width: 300px;
-    height: 35vh ;
-    overflow: hidden;
-
-}
-.images{
-    background-image: url("../images/image_3.jpg");
-    background-size: cover;
-    width: 300px;
-    height: 35vh ;
-    overflow: hidden;
-
-}
