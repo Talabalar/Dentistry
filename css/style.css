@@ -86,4 +86,15 @@ button:hover{
 img{
     width:100%;
 }
+.sana{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    /*height: 50px;*/
+    line-height: 15px;
+}
+p{
+    margin-bottom: 10px;
+}
+
 
